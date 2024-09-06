@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    border-radius: 4px;
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav{
+    background-color: cadetblue;
+    height: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Puedes ajustar esta altura según tu diseño */
+    box-sizing: border-box;
+}
+
+.logoCarrito{
+    height: 25px;
+}
